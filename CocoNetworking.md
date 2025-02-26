@@ -131,7 +131,7 @@ A **lightweight** and **dynamic** approach to Roblox networking that uses just *
 ## Overview of Typical Usage
 
 1. **Initialize** in **server** and **client**:
-   - `Network:Init()` in `ServerScriptService`  
+   - `Network:Init()` in `ServerScriptService`
    - `Network:Init()` in `StarterPlayerScripts`
 2. **On the Server**, use `BindEvent("MyEvent", function(player, ...) ...)` to handle client calls, and `FireClient/FireAllClients("MyEvent", ...)` to notify clients.
 3. **On the Client**, use `BindEvent("MyEvent", function(...) ...)` to react to server calls, and `FireServer("MyEvent", ...)` to send data to the server.
@@ -139,4 +139,4 @@ A **lightweight** and **dynamic** approach to Roblox networking that uses just *
 
 ---
 
-**End of Documentation**  
+**End of Documentation**
